@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">,
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Student Library</h1>
+
+    <main>
+        <section id="notes-section">
+            <h2>Find Notes</h2>
+            <input type="text" id="notes-code" placeholder="Enter Subject Code(Capital Letter)">
+            <button onclick="fetchNotes()">Search</button>
+            <div id="notes-result"></div>
+        </section>
+        <section id="question-papers-section">
+            <h2>Find Question Papers</h2>
+            <input type="text" id="question-paper-code" placeholder="Enter Question Paper Subject Code">
+            <button onclick="fetchQuestionPapers()">Search</button>
+            <div id="question-papers-result"></div>
+        </section>
+        <section id="project-search-section">
+            <h2>Find Final Year Projects</h2>
+            <input type="text" id="search-project-name" placeholder="Enter Project Name in Capital Letter">
+            <button onclick="fetchProject()">Search</button>
+            <div id="project-search-result"></div>
+        </section>
+
+        <video autoplay muted loop id="background-video">
+            <source src="search.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
