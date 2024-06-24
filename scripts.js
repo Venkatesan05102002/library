@@ -1,7 +1,7 @@
 // Simulated database
 const database = {
     notes: {
-        'CCS341': 'https://drive.google.com/file/d/19msEQIVBXzODSY6M_12ROxPVXDNRr28e/view?usp=sharing',
+        'CCS341': 'https://drive.google.com/file/d/19msEQIVBXzODSY6M_12ROxPVXDNRr28e/view?usp=drivesdk',
         'MA102': 'ma102_notes.pdf'
     },
     questionPapers: {
